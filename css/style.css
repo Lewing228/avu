@@ -129,10 +129,12 @@ a {
 }
 .slider .owl-nav .owl-next {
   background: url('../images/next-arrow.png') center center / 11px 19px no-repeat #cf6aa0;
+  touch-action: none;
 }
 .slider .owl-nav .owl-prev {
   background: url('../images/prev-arrow.png') center center / 11px 19px no-repeat #cf6aa0;
   margin-right: 10px;
+  touch-action: none;
 }
 .slider .owl-stage {
   display: flex;
